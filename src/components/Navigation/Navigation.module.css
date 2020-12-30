@@ -1,0 +1,15 @@
+.nav {
+ width: 100%;
+ height: inherit;
+ grid-area: nav;
+ background-color: Indigo;
+ align-content: start;
+ padding: 15px;
+}
+.ul {
+ text-align: left;
+ padding: 0px;
+}
+.li {
+ padding: 5px;
+}

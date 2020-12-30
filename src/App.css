@@ -1,0 +1,33 @@
+body {
+ background-color: #000;
+}
+style, title {
+ display: none;
+}
+p {
+ padding: 0px;
+ margin: 0px;
+}
+a {
+ text-decoration: none;
+ color: White;
+ justify-self: start;
+ cursor: pointer;
+}
+* {
+ display: grid;
+ place-content: center;
+ place-self: center;
+ place-items: center;
+ box-sizing: border-box;
+}
+._container {
+ width: 960px;
+}
+._container.main {
+ height: 550px;
+ grid-template-areas: 
+ "nav main main main main";
+ grid-template-columns: repeat(5, 1fr);
+ grid-gap: 10px;
+}

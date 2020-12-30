@@ -1,0 +1,11 @@
+.header {
+ width: inherit;
+ height: 60px;
+ padding: 15px;
+ justify-content: start;
+ background-color: Indigo;
+ margin-bottom: 10px;
+}
+.logo {
+ width: 30px;
+}
